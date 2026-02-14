@@ -1,4 +1,4 @@
-package main 
+package main
 
 import (
 	"testing"
@@ -10,7 +10,7 @@ func TestMaxInt(t *testing.T) {
 	res := MaxInt(a, b)
 
 	if res != b {
-		t.Error("expected %d, got %d", b, res)
+		t.Errorf("expected %d, got %d", b, res)
 	}
 }
 
